@@ -1,0 +1,7 @@
+{
+    "name": "devcontainerintellij",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "devenv",
+    "workspaceFolder": "/workspace",
+    "remoteUser": "devenv"
+}

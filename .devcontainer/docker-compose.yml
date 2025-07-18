@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  devenv:
+    container_name: intellij-devcontainer
+    build: .
+    volumes:
+      - ..:/workspace
+    command: sleep infinity
+    user: devenv
