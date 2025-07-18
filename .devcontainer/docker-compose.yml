@@ -3,7 +3,9 @@ version: '2'
 services:
   devenv:
     container_name: intellij-devcontainer
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile
     volumes:
       - ..:/workspace
     command: sleep infinity
